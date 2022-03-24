@@ -64,7 +64,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-9">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="img/logo.png" data-rjs="2" alt="VPNet">
                             </a>
                         </div>
@@ -74,47 +74,47 @@
                             <!-- Header-menu -->
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><a href="http://billing.ywhmcs.com/?systpl=Serviney">WHMCS</a></li>
                                     <li>
                                         <a href="#">Pages <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="packages.html">Packages</a></li>
-                                            <li><a href="reviews.html">Reviews</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a href="packages.php">Packages</a></li>
+                                            <li><a href="reviews.php">Reviews</a></li>
+                                            <li><a href="faq.php">FAQ</a></li>
+                                            <li><a href="404.php">404</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Services <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="services.html">All services</a></li>
-                                            <li><a href="cable-tv.html">Cable TV</a></li>
-                                            <li><a href="dedicated-server.html">Dedicated server</a></li>
-                                            <li><a href="internet.html">Internet provider</a></li>
-                                            <li><a href="mobile.html">Mobile packages</a></li>
+                                            <li><a href="services.php">All services</a></li>
+                                            <li><a href="cable-tv.php">Cable TV</a></li>
+                                            <li><a href="dedicated-server.php">Dedicated server</a></li>
+                                            <li><a href="internet.php">Internet provider</a></li>
+                                            <li><a href="mobile.php">Mobile packages</a></li>
                                         </ul>
                                     </li>
                                     <li class="active">
                                         <a href="#">Blog <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="blog.html">Full Width</a></li>
-                                            <li class="active">
+                                            <li class="active"><a href="blog.php">Full Width</a></li>
+                                            <li>
                                                 <a href="#">Blog With Sidebar <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                                    <li class="active"><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                                    <li><a href="blog-sidebar-left.php">Blog Sidebar Left</a></li>
+                                                    <li><a href="blog-sidebar-right.php">Blog Sidebar Right</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="#">Blog Columns <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-2-columns.html">2 Columns Blog</a></li>
-                                                    <li><a href="blog-3-columns.html">3 Columns Blog</a></li>
+                                                    <li><a href="blog-2-columns.php">2 Columns Blog</a></li>
+                                                    <li><a href="blog-3-columns.php">3 Columns Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -123,16 +123,16 @@
                                             <li>
                                                 <a href="#">Products <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="products-2-columns.html">Products (2 Columns)</a></li>
-                                                    <li><a href="products-3-columns.html">Products (3 Columns)</a></li>
+                                                    <li><a href="products-2-columns.php">Products (2 Columns)</a></li>
+                                                    <li><a href="products-3-columns.php">Products (3 Columns)</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="product-details.html">Product Details</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="product-details.php">Product Details</a></li>
+                                            <li><a href="cart.php">Cart</a></li>
+                                            <li><a href="checkout.php">Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- End of Header-menu -->
@@ -159,7 +159,7 @@
                     <div class="page-title" data-animate="fadeInUp" data-delay="1.2">
                         <h2>Blog</h2>
                         <ul class="list-unstyled m-0 d-flex">
-                            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
                             <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
@@ -175,164 +175,74 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="blog">
-                        <div class="row isotope">
+                        <div class="row">
                             <!-- Single Post -->
-                            <div class="col-md-6">
+                            <div class="col-12">
                                 <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
                                     <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post4.jpg" data-rjs="2" alt="">
+                                    <img src="img/posts/post9-fw.jpg" data-rjs="2" alt="">
                                     <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/author1.jpg" alt=""></li>
-                                        <li>by <a href="#">Zane M. Frye</a></li>
+                                        <li><img src="img/authors/male.png" alt=""></li>
+                                        <li>by <a href="#">Foster B. Severson</a></li>
                                         <li><a href="#">January 19, 2018</a></li>
                                     </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Everything you need to know to cut the cord and ditch cable to order now</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
+                                    <h3 class="h5"><a href="blog-details.php">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
+                                    <a href="blog-details.php">Continue Reading <i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                             <!-- End of Single Post -->
 
-                            <div class="col-md-6">
+                            <div class="col-12">
                                 <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
                                     <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post5.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/male.png" alt=""></li>
-                                        <li>by <a href="#">Zane M. Frye</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Why the FCC's latest net neutrality defense is hollow on the flow</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post6.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/female.png" alt=""></li>
-                                        <li>by <a href="#">Zane M. Frye</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Why the FCC's latest net neutrality defense is hollow on the flow</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post7.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/male.png" alt=""></li>
-                                        <li>by <a href="#">Foster B. Severson</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post7.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/female.png" alt=""></li>
-                                        <li>by <a href="#">Barbara S. Pickerel</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Powered Enterprise IT: Cloud implementation built for the future</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post9.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/male.png" alt=""></li>
-                                        <li>by <a href="#">Foster B. Severson</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post10.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/female.png" alt=""></li>
-                                        <li>by <a href="#">Barbara S. Pickerel</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Powered Enterprise IT: Cloud implementation built for the future</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post11.jpg" data-rjs="2" alt="">
+                                    <img src="img/posts/post4-fw.jpg" data-rjs="2" alt="">
                                     <ul class="list-unstyled d-flex align-items-center">
                                         <li><img src="img/authors/author1.jpg" alt=""></li>
                                         <li>by <a href="#">Zane M. Frye</a></li>
                                         <li><a href="#">January 19, 2018</a></li>
                                     </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Everything you need to know to cut the cord and ditch cable to order now</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
+                                    <h3 class="h5"><a href="blog-details.php">Everything you need to know to cut the cord and ditch cable to order now</a></h3>
+                                    <a href="blog-details.php">Continue Reading <i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+
+                            <div class="col-12">
                                 <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
                                     <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post12.jpg" data-rjs="2" alt="">
+                                    <img src="img/posts/post5-fw.jpg" data-rjs="2" alt="">
+                                    <ul class="list-unstyled d-flex align-items-center">
+                                        <li><img src="img/authors/male.png" alt=""></li>
+                                        <li>by <a href="#">Zane M. Frye</a></li>
+                                        <li><a href="#">January 19, 2018</a></li>
+                                    </ul>
+                                    <h3 class="h5"><a href="blog-details.php">Why the FCC's latest net neutrality defense is hollow on the flow</a></h3>
+                                    <a href="blog-details.php">Continue Reading <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
+                                    <a class="tip" href="#">News</a>
+                                    <img src="img/posts/post6-fw.jpg" data-rjs="2" alt="">
                                     <ul class="list-unstyled d-flex align-items-center">
                                         <li><img src="img/authors/female.png" alt=""></li>
-                                        <li>by <a href="#">Barbara S. Pickerel</a></li>
+                                        <li>by <a href="#">Zane M. Frye</a></li>
                                         <li><a href="#">January 19, 2018</a></li>
                                     </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Powered Enterprise IT: Cloud implementation built for the future</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
+                                    <h3 class="h5"><a href="blog-details.php">Why the FCC's latest net neutrality defense is hollow on the flow</a></h3>
+                                    <a href="blog-details.php">Continue Reading <i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-12">
                                 <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
                                     <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post13.jpg" data-rjs="2" alt="">
+                                    <img src="img/posts/post7-fw.jpg" data-rjs="2" alt="">
                                     <ul class="list-unstyled d-flex align-items-center">
                                         <li><img src="img/authors/male.png" alt=""></li>
                                         <li>by <a href="#">Foster B. Severson</a></li>
                                         <li><a href="#">January 19, 2018</a></li>
                                     </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post14.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/male.png" alt=""></li>
-                                        <li>by <a href="#">Foster B. Severson</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post15.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/male.png" alt=""></li>
-                                        <li>by <a href="#">Foster B. Severson</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
+                                    <h3 class="h5"><a href="blog-details.php">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
+                                    <a href="blog-details.php">Continue Reading <i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>

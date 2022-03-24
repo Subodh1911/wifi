@@ -64,7 +64,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-9">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="img/logo.png" data-rjs="2" alt="VPNet">
                             </a>
                         </div>
@@ -74,47 +74,47 @@
                             <!-- Header-menu -->
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><a href="http://billing.ywhmcs.com/?systpl=Serviney">WHMCS</a></li>
                                     <li>
                                         <a href="#">Pages <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="packages.html">Packages</a></li>
-                                            <li><a href="reviews.html">Reviews</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a href="packages.php">Packages</a></li>
+                                            <li><a href="reviews.php">Reviews</a></li>
+                                            <li><a href="faq.php">FAQ</a></li>
+                                            <li><a href="404.php">404</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Services <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="services.html">All services</a></li>
-                                            <li><a href="cable-tv.html">Cable TV</a></li>
-                                            <li><a href="dedicated-server.html">Dedicated server</a></li>
-                                            <li><a href="internet.html">Internet provider</a></li>
-                                            <li><a href="mobile.html">Mobile packages</a></li>
+                                            <li><a href="services.php">All services</a></li>
+                                            <li><a href="cable-tv.php">Cable TV</a></li>
+                                            <li><a href="dedicated-server.php">Dedicated server</a></li>
+                                            <li><a href="internet.php">Internet provider</a></li>
+                                            <li><a href="mobile.php">Mobile packages</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Blog <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="blog.html">Full Width</a></li>
+                                            <li><a href="blog.php">Full Width</a></li>
                                             <li>
                                                 <a href="#">Blog With Sidebar <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                                    <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                                    <li><a href="blog-sidebar-left.php">Blog Sidebar Left</a></li>
+                                                    <li><a href="blog-sidebar-right.php">Blog Sidebar Right</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="#">Blog Columns <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-2-columns.html">2 Columns Blog</a></li>
-                                                    <li><a href="blog-3-columns.html">3 Columns Blog</a></li>
+                                                    <li><a href="blog-2-columns.php">2 Columns Blog</a></li>
+                                                    <li><a href="blog-3-columns.php">3 Columns Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="active">
@@ -123,16 +123,16 @@
                                             <li>
                                                 <a href="#">Products <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="products-2-columns.html">Products (2 Columns)</a></li>
-                                                    <li><a href="products-3-columns.html">Products (3 Columns)</a></li>
+                                                    <li><a href="products-2-columns.php">Products (2 Columns)</a></li>
+                                                    <li><a href="products-3-columns.php">Products (3 Columns)</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="product-details.html">Product Details</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li class="active"><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="product-details.php">Product Details</a></li>
+                                            <li><a href="cart.php">Cart</a></li>
+                                            <li class="active"><a href="checkout.php">Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- End of Header-menu -->
@@ -159,10 +159,10 @@
                     <div class="page-title" data-animate="fadeInUp" data-delay="1.2">
                         <h2>Cart</h2>
                         <ul class="list-unstyled m-0 d-flex">
-                            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                            <li><a href="products-3-columns.html">Products</a></li>
-                            <li><a href="cart.html">Cart</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="products-3-columns.php">Products</a></li>
+                            <li><a href="cart.php">Cart</a></li>
+                            <li><a href="checkout.php">Checkout</a></li>
                         </ul>
                     </div>
                 </div>

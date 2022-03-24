@@ -64,7 +64,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-9">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="img/logo.png" data-rjs="2" alt="VPNet">
                             </a>
                         </div>
@@ -74,47 +74,47 @@
                             <!-- Header-menu -->
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><a href="http://billing.ywhmcs.com/?systpl=Serviney">WHMCS</a></li>
                                     <li>
                                         <a href="#">Pages <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="packages.html">Packages</a></li>
-                                            <li><a href="reviews.html">Reviews</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a href="packages.php">Packages</a></li>
+                                            <li><a href="reviews.php">Reviews</a></li>
+                                            <li><a href="faq.php">FAQ</a></li>
+                                            <li><a href="404.php">404</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Services <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="services.html">All services</a></li>
-                                            <li><a href="cable-tv.html">Cable TV</a></li>
-                                            <li><a href="dedicated-server.html">Dedicated server</a></li>
-                                            <li><a href="internet.html">Internet provider</a></li>
-                                            <li><a href="mobile.html">Mobile packages</a></li>
+                                            <li><a href="services.php">All services</a></li>
+                                            <li><a href="cable-tv.php">Cable TV</a></li>
+                                            <li><a href="dedicated-server.php">Dedicated server</a></li>
+                                            <li><a href="internet.php">Internet provider</a></li>
+                                            <li><a href="mobile.php">Mobile packages</a></li>
                                         </ul>
                                     </li>
                                     <li class="active">
                                         <a href="#">Blog <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li class="active"><a href="blog.html">Full Width</a></li>
+                                            <li><a href="blog.php">Full Width</a></li>
                                             <li>
                                                 <a href="#">Blog With Sidebar <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                                    <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                                    <li><a href="blog-sidebar-left.php">Blog Sidebar Left</a></li>
+                                                    <li><a href="blog-sidebar-right.php">Blog Sidebar Right</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="#">Blog Columns <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-2-columns.html">2 Columns Blog</a></li>
-                                                    <li><a href="blog-3-columns.html">3 Columns Blog</a></li>
+                                                    <li><a href="blog-2-columns.php">2 Columns Blog</a></li>
+                                                    <li><a href="blog-3-columns.php">3 Columns Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li class="active"><a href="blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -123,16 +123,16 @@
                                             <li>
                                                 <a href="#">Products <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="products-2-columns.html">Products (2 Columns)</a></li>
-                                                    <li><a href="products-3-columns.html">Products (3 Columns)</a></li>
+                                                    <li><a href="products-2-columns.php">Products (2 Columns)</a></li>
+                                                    <li><a href="products-3-columns.php">Products (3 Columns)</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="product-details.html">Product Details</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="product-details.php">Product Details</a></li>
+                                            <li><a href="cart.php">Cart</a></li>
+                                            <li><a href="checkout.php">Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- End of Header-menu -->
@@ -157,10 +157,11 @@
             <div class="row">
                 <div class="col">
                     <div class="page-title" data-animate="fadeInUp" data-delay="1.2">
-                        <h2>Blog</h2>
+                        <h2>Blog Details</h2>
                         <ul class="list-unstyled m-0 d-flex">
-                            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="#">Blog Details</a></li>
                         </ul>
                     </div>
                 </div>
@@ -174,90 +175,189 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="blog">
-                        <div class="row">
-                            <!-- Single Post -->
-                            <div class="col-12">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post9-fw.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/male.png" alt=""></li>
-                                        <li>by <a href="#">Foster B. Severson</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
+                    <div class="blog-details mb-55">
+                        <!-- Post Info -->
+                        <div class="single-news">
+                            <img src="img/posts/post.jpg" data-rjs="2" alt="" data-animate="fadeInUp" data-delay=".1">
+                            <ul class="list-unstyled d-flex align-items-center" data-animate="fadeInUp" data-delay=".2">
+                                <li><img src="img/authors/female.png" alt=""></li>
+                                <li>by <a href="#">Zane M. Frye</a></li>
+                                <li><a href="#">January 19, 2018</a></li>
+                                <li><a href="#" class="tip">News</a></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Post Contents -->
+                        <div class="post-content mb-55 clearfix" data-animate="fadeInUp" data-delay=".1">
+                            <h1 class="h2">Three privacy tools that block your Internet provider from tracking your computer</h1>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non rovident,  minus id quod <strong>maxime placeat facere possimus</strong>, omnis voluptas assumenda est, omnis dolor repellendus. mporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                            <blockquote class="d-md-flex align-items-center">
+                                <div class="quote-content">
+                                    <p><i>“Ptatum deleniti atque corrupti quos dolores molestias excepturi sint occaecati cupiditate non rovident,  minus id quod maxime eceat facere possimus, omnis voluptas assumenda est, omnis dolor ndus”</i></p>
+                                    <p class="mb-md-0"><span><i>- Joseph K. Reneau</i></span></p>
                                 </div>
-                            </div>
-                            <!-- End of Single Post -->
-
-                            <div class="col-12">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post4-fw.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/author1.jpg" alt=""></li>
-                                        <li>by <a href="#">Zane M. Frye</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Everything you need to know to cut the cord and ditch cable to order now</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
+                                <div class="quote-img">
+                                    <img src="img/posts/quote.jpg" alt="">
                                 </div>
+                            </blockquote>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying from toil and pain. <span class="primary-bg text-white">These cases are perfectly simple and easy to distinguish.</span> In a free hour, when our power of choice is untrammeled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the laims  secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+                            <h3 class="h5">1914 translation by H. Rackham</h3>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non rovident,  minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. mporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.</p>
+                        </div>
+                        
+                        <div class="tags-and-share light-bg mb-55 d-md-flex align-items-md-center justify-content-md-between" data-animate="fadeInUp" data-delay=".1">
+                            <div class="tags d-flex flex-wrap align-items-center">
+                                <i class="fa fa-tags"></i>
+                                <a href="#">envato</a>
+                                <a href="#">internet</a>
+                                <a href="#">technology</a>
                             </div>
-
-                            <div class="col-12">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post5-fw.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/male.png" alt=""></li>
-                                        <li>by <a href="#">Zane M. Frye</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Why the FCC's latest net neutrality defense is hollow on the flow</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
+                            <div class="post-share text-md-right">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-vimeo"></i></a>
+                                <a href="#"><i class="fa fa-share-alt"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Post Author -->
+                        <div class="post-author mb-55 d-flex align-items-center" data-animate="fadeInUp" data-delay=".1">
+                            <div class="post-author-img">
+                                <img src="img/authors/female.png" alt="">
+                            </div>
+                            <div class="post-author-details">
+                                <h5>About The Author</h5>
+                                <p>Cupiditate non rovident,  minus id quod maxime placeat facere possimus, omnis voluptas umenda  omnis dolor repellendus. mporibus molestiae non recusandae.</p>
+                                <a href="#">- Barbara S. Pickerel</a>
+                            </div>
+                        </div>
+                        
+                        <hr class="mb-55">
+                        
+                        <!-- Post Navigation -->
+                        <div class="next-prev-posts mb-55">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="next-prev-post d-flex align-items-center" data-animate="fadeInUp" data-delay=".1">
+                                        <div class="next-prev-post-img position-relative">
+                                            <span>Prev</span>
+                                            <img src="img/posts/thumb1.jpg" alt="">
+                                        </div>
+                                        <div class="rpw-content">
+                                            <a class="tip" href="#">News</a>
+                                            <h5><a href="#">What Is Net Neutrality? Should Iran Worried Answered faqs</a></h5>
+                                            <a href="#">January 19, 2018</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post6-fw.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/female.png" alt=""></li>
-                                        <li>by <a href="#">Zane M. Frye</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Why the FCC's latest net neutrality defense is hollow on the flow</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="single-news mb-55" data-animate="fadeInUp" data-delay=".1">
-                                    <a class="tip" href="#">News</a>
-                                    <img src="img/posts/post7-fw.jpg" data-rjs="2" alt="">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li><img src="img/authors/male.png" alt=""></li>
-                                        <li>by <a href="#">Foster B. Severson</a></li>
-                                        <li><a href="#">January 19, 2018</a></li>
-                                    </ul>
-                                    <h3 class="h5"><a href="blog-details.html">Three privacy tools that block your Internet provider from tracking your computer</a></h3>
-                                    <a href="blog-details.html">Continue Reading <i class="fa fa-angle-right"></i></a>
+                                <div class="col-md-6">
+                                    <div class="next-prev-post d-flex align-items-center" data-animate="fadeInUp" data-delay=".4">
+                                        <div class="next-prev-post-img position-relative">
+                                            <span>Next</span>
+                                            <img src="img/posts/thumb2.jpg" alt="">
+                                        </div>
+                                        <div class="rpw-content">
+                                            <a class="tip" href="#">News</a>
+                                            <h5><a href="#">Google Made a Small Mistake, Causing a Widespread Internet</a></h5>
+                                            <a href="#">January 19, 2018</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <ul class="pagination blog-pagination align-items-center justify-content-center mb-55" data-animate="fadeInUp" data-delay=".1">
-                            <li><a href="#"><img src="img/icons/left-arrow.svg" alt="" class="svg"></a></li>
-                            <li class="active"><a href="#">01</a></li>
-                            <li><a href="#">02</a></li>
-                            <li><a href="#">03</a></li>
-                            <li><a href="#">04</a></li>
-                            <li><a href="#">05</a></li>
-                            <li><a href="#"><img src="img/icons/right-arrow.svg" alt="" class="svg"></a></li>
-                        </ul>
+
+                        <!-- Post Comments -->
+                        <div class="sn-comments mb-55" data-animate="fadeInUp" data-delay=".1">
+                            <h3 class="bordered-title">03 Comments</h3>
+                            <ul class="comment-list parent-comment list-unstyled p-0 m-0">
+                                <li>
+                                    <div class="single-comment">
+                                        <div class="comment-author">
+                                            <img src="img/authors/male.png" alt="">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h6>John M. Stokes <span>January 19, 2018 at 08:35 pm</span></h6>
+                                            <p>Cupiditate non rovident,  minus id quod maxime placeat facere possimus, omnis voluptas umenda  omnis dolor repellendus. mporibus molestiae non recusandae.</p>
+                                            <a class="comment-reply" href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                    <ul class="comment-list sub-comment list-unstyled m-0">
+                                        <li>
+                                            <div class="single-comment">
+                                                <div class="comment-author">
+                                                    <img src="img/authors/author1.jpg" alt="">
+                                                </div>
+                                                <div class="comment-content">
+                                                    <h6>John M. Stokes <span>January 19, 2018 at 08:35 pm</span></h6>
+                                                    <p>Cupiditate non rovident,  minus id quod maxime placeat facere possimus, omnis voluptas umenda  omnis dolor repellendus. mporibus molestiae non recusandae.</p>
+                                                    <a class="comment-reply" href="#">Reply</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="single-comment">
+                                        <div class="comment-author">
+                                            <img src="img/authors/female.png" alt="">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h6>Kristina T. Herbert <span>January 19, 2018 at 08:35 pm</span></h6>
+                                            <p>Cupiditate non rovident,  minus id quod maxime placeat facere possimus, omnis voluptas umenda  omnis dolor repellendus. mporibus molestiae non recusandae.</p>
+                                            <a class="comment-reply" href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-comment">
+                                        <div class="comment-author">
+                                            <img src="img/authors/author1.jpg" alt="">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h6>Jonathan J. Johnson <span>January 19, 2018 at 08:35 pm</span></h6>
+                                            <p>Cupiditate non rovident,  minus id quod maxime placeat facere possimus, omnis voluptas umenda  omnis dolor repellendus. mporibus molestiae non recusandae.</p>
+                                            <a class="comment-reply" href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <hr class="mb-55">
+
+                        <!-- Post Comment Form -->
+                        <div class="comment-form mb-55" data-animate="fadeInUp" data-delay=".1">
+                            <h3 class="bordered-title">Leave a comment</h3>
+                            <form class="parsley-validate" action="#">
+                                <div class="form-field">
+                                    <textarea class="theme-input-style" placeholder="Write your text" required=""></textarea>
+                                </div>
+                                <div class="row half-gutters">
+                                    <div class="col-sm-4">
+                                        <div class="form-field">
+                                            <input type="text" class="theme-input-style" placeholder="Your name" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-field">
+                                            <input type="email" class="theme-input-style" placeholder="Email address" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="form-field">
+                                            <input type="url" class="theme-input-style" placeholder="Website">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn">Post Comment</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                
+
                 <!-- Sidebar -->
                 <div class="col-lg-4">
                     <aside>

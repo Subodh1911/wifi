@@ -64,7 +64,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-9">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="img/logo.png" data-rjs="2" alt="VPNet">
                             </a>
                         </div>
@@ -74,65 +74,65 @@
                             <!-- Header-menu -->
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><a href="http://billing.ywhmcs.com/?systpl=Serviney">WHMCS</a></li>
-                                    <li>
+                                    <li class="active">
                                         <a href="#">Pages <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="packages.html">Packages</a></li>
-                                            <li><a href="reviews.html">Reviews</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a href="packages.php">Packages</a></li>
+                                            <li><a href="reviews.php">Reviews</a></li>
+                                            <li><a href="faq.php">FAQ</a></li>
+                                            <li class="active"><a href="404.php">404</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Services <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="services.html">All services</a></li>
-                                            <li><a href="cable-tv.html">Cable TV</a></li>
-                                            <li><a href="dedicated-server.html">Dedicated server</a></li>
-                                            <li><a href="internet.html">Internet provider</a></li>
-                                            <li><a href="mobile.html">Mobile packages</a></li>
+                                            <li><a href="services.php">All services</a></li>
+                                            <li><a href="cable-tv.php">Cable TV</a></li>
+                                            <li><a href="dedicated-server.php">Dedicated server</a></li>
+                                            <li><a href="internet.php">Internet provider</a></li>
+                                            <li><a href="mobile.php">Mobile packages</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Blog <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="blog.html">Full Width</a></li>
+                                            <li><a href="blog.php">Full Width</a></li>
                                             <li>
                                                 <a href="#">Blog With Sidebar <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                                    <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                                    <li><a href="blog-sidebar-left.php">Blog Sidebar Left</a></li>
+                                                    <li><a href="blog-sidebar-right.php">Blog Sidebar Right</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="#">Blog Columns <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-2-columns.html">2 Columns Blog</a></li>
-                                                    <li><a href="blog-3-columns.html">3 Columns Blog</a></li>
+                                                    <li><a href="blog-2-columns.php">2 Columns Blog</a></li>
+                                                    <li><a href="blog-3-columns.php">3 Columns Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="#">Shop <i class="fa fa-caret-down"></i></a>
                                         <ul>
                                             <li>
                                                 <a href="#">Products <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="products-2-columns.html">Products (2 Columns)</a></li>
-                                                    <li><a href="products-3-columns.html">Products (3 Columns)</a></li>
+                                                    <li><a href="products-2-columns.php">Products (2 Columns)</a></li>
+                                                    <li><a href="products-3-columns.php">Products (3 Columns)</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="product-details.html">Product Details</a></li>
-                                            <li class="active"><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="product-details.php">Product Details</a></li>
+                                            <li><a href="cart.php">Cart</a></li>
+                                            <li><a href="checkout.php">Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- End of Header-menu -->
@@ -151,187 +151,26 @@
     </header>
     <!-- End of Main header -->
 
-    <!-- Page Title -->
-    <section class="page-title-wrap" data-bg-img="img/hills.jpg" data-rjs="2">
+    <section class="page-not-found pt-120 pb-120">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <div class="page-title" data-animate="fadeInUp" data-delay="1.2">
-                        <h2>Cart</h2>
-                        <ul class="list-unstyled m-0 d-flex">
-                            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                            <li><a href="products-3-columns.html">Products</a></li>
-                            <li><a href="cart.html">Cart</a></li>
-                        </ul>
+                <div class="col-md-8 offset-md-2 text-center">
+                    <div class="not-found">
+                        <h2 data-animate="fadeInUp" data-delay=".1">404</h2>
+                        <p data-animate="fadeInUp" data-delay=".3">Sorry. Page not found. <br>Please try main navigation menu or search.</p>
+                        <div class="search-widget" data-animate="fadeInUp" data-delay=".5">
+                            <form class="parsley-validate" action="#">
+                                <div class="form-field">
+                                    <input class="theme-input-style" type="text" placeholder="Search here..." required="">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End of Page Title -->
-    
-    <!-- Cart -->
-    <section class="pt-120 pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <!-- Products Table -->
-                    <form class="parsley-validate" action="#" data-animate="fadeInUp" data-delay=".1">
-                        <div class="primary-bg text-white p-2 mb-4 d-md-none">
-                            <span>Table is movable to left and right.</span>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="sn-cart light-bg mb-60 table table-bordered">
-                                <tbody>
-                                    <tr>
-                                        <th colspan="2">Product</th>
-                                        <th>Price</th>
-                                        <th>Quantity</th>
-                                        <th>Total</th>
-                                        <th>Action</th>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img src="img/products/cart-item1.jpg" alt="">
-                                        </td>
-                                        <td>
-                                            <a href="#">Wireless security camera for personal/home use</a>
-                                        </td>
-                                        <td>
-                                            <span>$13.50</span>
-                                        </td>
-                                        <td>
-                                            <span class="quantity-control d-flex justify-content-center align-items-center">
-                                                <span class="minus"><img src="img/icons/minus.svg" alt=""></span>
-                                                <input type="text" value="1">
-                                                <span class="plus"><img src="img/icons/plus.svg" alt=""></span>
-                                            </span>
-                                        </td>
-                                        <td>
-                                            <span>$13.50</span>
-                                        </td>
-                                        <td>
-                                            <a href="#"><i class="fa fa-times"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img src="img/products/cart-item2.jpg" alt="">
-                                        </td>
-                                        <td>
-                                            <a href="#">TpLink-MR3420, 3G/4G Wireless N Router</a>
-                                        </td>
-                                        <td>
-                                            <span>$13.50</span>
-                                        </td>
-                                        <td>
-                                            <span class="quantity-control d-flex justify-content-center align-items-center">
-                                                <span class="minus"><img src="img/icons/minus.svg" alt=""></span>
-                                                <input type="text" value="1">
-                                                <span class="plus"><img src="img/icons/plus.svg" alt=""></span>
-                                            </span>
-                                        </td>
-                                        <td>
-                                            <span>$13.50</span>
-                                        </td>
-                                        <td>
-                                            <a href="#"><i class="fa fa-times"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img src="img/products/cart-item3.jpg" alt="">
-                                        </td>
-                                        <td>
-                                            <a href="#">Micro-soft Office 365 Business Premium</a>
-                                        </td>
-                                        <td>
-                                            <span>$13.50</span>
-                                        </td>
-                                        <td>
-                                            <span class="quantity-control d-flex justify-content-center align-items-center">
-                                                <span class="minus"><img src="img/icons/minus.svg" alt=""></span>
-                                                <input type="text" value="1">
-                                                <span class="plus"><img src="img/icons/plus.svg" alt=""></span>
-                                            </span>
-                                        </td>
-                                        <td>
-                                            <span>$13.50</span>
-                                        </td>
-                                        <td>
-                                            <a href="#"><i class="fa fa-times"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <img src="img/products/cart-item4.jpg" alt="">
-                                        </td>
-                                        <td>
-                                            <a href="#">Unlocked 4g lte Modem Aircard Sierra 320U 4G LTE</a>
-                                        </td>
-                                        <td>
-                                            <span>$13.50</span>
-                                        </td>
-                                        <td>
-                                            <span class="quantity-control d-flex justify-content-center align-items-center">
-                                                <span class="minus"><img src="img/icons/minus.svg" alt=""></span>
-                                                <input type="text" value="1">
-                                                <span class="plus"><img src="img/icons/plus.svg" alt=""></span>
-                                            </span>
-                                        </td>
-                                        <td>
-                                            <span>$13.50</span>
-                                        </td>
-                                        <td>
-                                            <a href="#"><i class="fa fa-times"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="6">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div class="cupon-field position-relative">
-                                                    <input type="text" class="theme-input-style" placeholder="Input Coupon Code" required="">
-                                                    <button type="submit" class="btn">Apply Coupon</button>
-                                                </div>
-                                                <div class="cart-update">
-                                                    <button type="button" class="btn">Update Cart</button>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </form>
-                    <!-- End of Products Table -->
-
-                    <!-- Price Calculation Table -->
-                    <div class="d-flex justify-content-end" data-animate="fadeInUp" data-delay=".1">
-                        <div class="cart-totals light-bg">
-                            <h2 class="bordered-title">Cart Total</h2>
-                            <table class="w-100">
-                                <tr>
-                                    <th>Sub Total</th>
-                                    <td>$48.00</td>
-                                </tr>
-                                <tr>
-                                    <th>Shipping</th>
-                                    <td>Free</td>
-                                </tr>
-                                <tr>
-                                    <th>Total</th>
-                                    <td>$48.00</td>
-                                </tr>
-                            </table>
-                            <a href="#" class="btn">Proceed To Checkout</a>
-                        </div>
-                    </div>
-                    <!-- End of Price Calculation Table -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Cart -->
 
     <!-- Footer -->
     <footer class="main-footer">

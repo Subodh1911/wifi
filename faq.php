@@ -64,7 +64,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-9">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="img/logo.png" data-rjs="2" alt="VPNet">
                             </a>
                         </div>
@@ -74,47 +74,47 @@
                             <!-- Header-menu -->
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><a href="http://billing.ywhmcs.com/?systpl=Serviney">WHMCS</a></li>
                                     <li class="active">
                                         <a href="#">Pages <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="about.html">About</a></li>
-                                            <li class="active"><a href="packages.html">Packages</a></li>
-                                            <li><a href="reviews.html">Reviews</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a href="packages.php">Packages</a></li>
+                                            <li><a href="reviews.php">Reviews</a></li>
+                                            <li class="active"><a href="faq.php">FAQ</a></li>
+                                            <li><a href="404.php">404</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Services <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="services.html">All services</a></li>
-                                            <li><a href="cable-tv.html">Cable TV</a></li>
-                                            <li><a href="dedicated-server.html">Dedicated server</a></li>
-                                            <li><a href="internet.html">Internet provider</a></li>
-                                            <li><a href="mobile.html">Mobile packages</a></li>
+                                            <li><a href="services.php">All services</a></li>
+                                            <li><a href="cable-tv.php">Cable TV</a></li>
+                                            <li><a href="dedicated-server.php">Dedicated server</a></li>
+                                            <li><a href="internet.php">Internet provider</a></li>
+                                            <li><a href="mobile.php">Mobile packages</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Blog <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="blog.html">Full Width</a></li>
+                                            <li><a href="blog.php">Full Width</a></li>
                                             <li>
                                                 <a href="#">Blog With Sidebar <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                                    <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                                    <li><a href="blog-sidebar-left.php">Blog Sidebar Left</a></li>
+                                                    <li><a href="blog-sidebar-right.php">Blog Sidebar Right</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="#">Blog Columns <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-2-columns.html">2 Columns Blog</a></li>
-                                                    <li><a href="blog-3-columns.html">3 Columns Blog</a></li>
+                                                    <li><a href="blog-2-columns.php">2 Columns Blog</a></li>
+                                                    <li><a href="blog-3-columns.php">3 Columns Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -123,16 +123,16 @@
                                             <li>
                                                 <a href="#">Products <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="products-2-columns.html">Products (2 Columns)</a></li>
-                                                    <li><a href="products-3-columns.html">Products (3 Columns)</a></li>
+                                                    <li><a href="products-2-columns.php">Products (2 Columns)</a></li>
+                                                    <li><a href="products-3-columns.php">Products (3 Columns)</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="product-details.html">Product Details</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="product-details.php">Product Details</a></li>
+                                            <li><a href="cart.php">Cart</a></li>
+                                            <li><a href="checkout.php">Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- End of Header-menu -->
@@ -157,10 +157,10 @@
             <div class="row">
                 <div class="col">
                     <div class="page-title" data-animate="fadeInUp" data-delay="1.2">
-                        <h2>Packages</h2>
+                        <h2>FAQ</h2>
                         <ul class="list-unstyled m-0 d-flex">
-                            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                            <li><a href="#">Packages</a></li>
+                            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="#">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -169,170 +169,58 @@
     </section>
     <!-- End of Page Title -->
 
-    <!-- Packages Wrap -->
-    <section class="pt-120 pb-55">
+    <!-- FAQ -->
+    <section class="pt-120 pb-70">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8 col-md-10">
                     <div class="section-title text-center" data-animate="fadeInUp" data-delay=".1">
-                        <h2>Choose Affordable Packages</h2>
+                        <h2>Frequently Asked Questions</h2>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     </div>
                 </div>
             </div>
-            
-            <!-- Packages -->
-            <div class="row pb-90">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-package text-center" data-animate="fadeInUp" data-delay=".1">
-                        <h4>Personal Pack</h4>
-                        <span>for personal user</span>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li>Free installation</li>
-                            <li>Up to <span>15 Mpbs</span> download speed</li>
-                            <li>Unlimited data usages</li>
-                            <li><span>01 year</span> pricing lock guarantee</li>
-                            <li>Unlimited bandwidth</li>
-                        </ul>
-                        <p><sup>$</sup>12.50 <span>/Monthly</span></p>
-                        <a href="#" class="btn">Order This Plan</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-package text-center" data-animate="fadeInUp" data-delay=".4">
-                        <span class="pupular-pack">Most popular package</span>
-                        <h4>Family Pack</h4>
-                        <span>for family user</span>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li>Free installation</li>
-                            <li>Up to <span>25 Mpbs</span> download speed</li>
-                            <li>Unlimited data usages</li>
-                            <li><span>02 year</span> pricing lock guarantee</li>
-                            <li>Unlimited bandwidth</li>
-                        </ul>
-                        <p><sup>$</sup>24.50 <span>/Monthly</span></p>
-                        <a href="#" class="btn">Order This Plan</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-package text-center" data-animate="fadeInUp" data-delay=".7">
-                        <h4>Business Pack</h4>
-                        <span>for business user</span>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li>Free installation</li>
-                            <li>Up to <span>30 Mpbs</span> download speed</li>
-                            <li>Unlimited data usages</li>
-                            <li><span>03 year</span> pricing lock guarantee</li>
-                            <li>Unlimited bandwidth</li>
-                        </ul>
-                        <p><sup>$</sup>49.50 <span>/Monthly</span></p>
-                        <a href="#" class="btn">Order This Plan</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-package text-center" data-animate="fadeInUp" data-delay="1">
-                        <h4>Corporate Pack</h4>
-                        <span>for corporate user</span>
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li>Free installation</li>
-                            <li>Up to <span>39 Mpbs</span> download speed</li>
-                            <li>Unlimited data usages</li>
-                            <li><span>Unlimited</span> pricing lock guarantee</li>
-                            <li>Unlimited bandwidth</li>
-                        </ul>
-                        <p><sup>$</sup>79.50 <span>/Monthly</span></p>
-                        <a href="#" class="btn">Order This Plan</a>
-                    </div>
-                </div>
-            </div>
-            <!-- End of Packages -->
-
-            <!-- Packages Includes -->
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-8 col-md-10">
-                    <div class="section-title text-center" data-animate="fadeInUp" data-delay=".1">
-                        <h2>All Plans Included</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    </div>
-                </div>
-            </div>
-
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-feature single-feature-img-left text-left" data-animate="fadeInUp" data-delay=".05">
-                        <div class="single-feature-img">
-                            <img src="img/icons/ftp.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>Own FTP Server</h4>
-                            <p>At vero eos et accusamus et iusto dignissimosus qui blanditiis praesentium uptatum</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-feature single-feature-img-left text-left" data-animate="fadeInUp" data-delay=".2">
-                        <div class="single-feature-img">
-                            <img src="img/icons/upgrade.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>Upgrade or Downgrade</h4>
-                            <p>At vero eos et accusamus et iusto dignissimosus qui blanditiis praesentium uptatum</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-feature single-feature-img-left text-left" data-animate="fadeInUp" data-delay=".35">
-                        <div class="single-feature-img">
-                            <img src="img/icons/data.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>No Hard Data Limit</h4>
-                            <p>At vero eos et accusamus et iusto dignissimosus qui blanditiis praesentium uptatum</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-feature single-feature-img-left text-left" data-animate="fadeInUp" data-delay=".5">
-                        <div class="single-feature-img">
-                            <img src="img/icons/lock.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>Lock in Low Rates</h4>
-                            <p>At vero eos et accusamus et iusto dignissimosus qui blanditiis praesentium uptatum</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-feature single-feature-img-left text-left" data-animate="fadeInUp" data-delay=".65">
-                        <div class="single-feature-img">
-                            <img src="img/icons/cloud.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>No Video Streaming</h4>
-                            <p>At vero eos et accusamus et iusto dignissimosus qui blanditiis praesentium uptatum</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-feature single-feature-img-left text-left" data-animate="fadeInUp" data-delay=".8">
-                        <div class="single-feature-img">
-                            <img src="img/icons/access.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>Access to All Website</h4>
-                            <p>At vero eos et accusamus et iusto dignissimosus qui blanditiis praesentium uptatum</p>
+                <div class="col">
+                    <div class="faq pb-50" data-animate="fadeInUp" data-delay=".3">
+                        <div class="accordion" id="accordionFaq">
+                            <div class="single-faq">
+                                <div class="faq-title d-flex align-items-center">
+                                    <h3 class="h5" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">I can’t access my internet. How do i contact with support center?</h3>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordionFaq">
+                                    <div class="faq-answer">
+                                        <p><span>Ans: </span>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-faq">
+                                <div class="faq-title d-flex align-items-center">
+                                    <h3 class="h5" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">I already paid my bill but still its showing Due. Why is that?</h3>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordionFaq">
+                                    <div class="faq-answer">
+                                        <p><span>Ans: </span>Pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-faq">
+                                <div class="faq-title d-flex align-items-center">
+                                    <h3 class="h5" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How can I contact with your emergency higher management?</h3>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordionFaq">
+                                    <div class="faq-answer">
+                                        <p><span>Ans: </span>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End of Packages Includes -->
         </div>
     </section>
-    <!-- End of Packages Wrap -->
+    <!-- End of FAQ -->
 
     <!-- Footer -->
     <footer class="main-footer">

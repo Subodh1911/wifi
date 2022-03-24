@@ -64,7 +64,7 @@
                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-9">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="img/logo.png" data-rjs="2" alt="VPNet">
                             </a>
                         </div>
@@ -74,47 +74,47 @@
                             <!-- Header-menu -->
                             <div class="header-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li><a href="http://billing.ywhmcs.com/?systpl=Serviney">WHMCS</a></li>
-                                    <li class="active">
+                                    <li>
                                         <a href="#">Pages <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li class="active"><a href="about.html">About</a></li>
-                                            <li><a href="packages.html">Packages</a></li>
-                                            <li><a href="reviews.html">Reviews</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a href="packages.php">Packages</a></li>
+                                            <li><a href="reviews.php">Reviews</a></li>
+                                            <li><a href="faq.php">FAQ</a></li>
+                                            <li><a href="404.php">404</a></li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                         <a href="#">Services <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="services.html">All services</a></li>
-                                            <li><a href="cable-tv.html">Cable TV</a></li>
-                                            <li><a href="dedicated-server.html">Dedicated server</a></li>
-                                            <li><a href="internet.html">Internet provider</a></li>
-                                            <li><a href="mobile.html">Mobile packages</a></li>
+                                            <li><a href="services.php">All services</a></li>
+                                            <li class="active"><a href="cable-tv.php">Cable TV</a></li>
+                                            <li><a href="dedicated-server.php">Dedicated server</a></li>
+                                            <li><a href="internet.php">Internet provider</a></li>
+                                            <li><a href="mobile.php">Mobile packages</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <a href="#">Blog <i class="fa fa-caret-down"></i></a>
                                         <ul>
-                                            <li><a href="blog.html">Full Width</a></li>
+                                            <li><a href="blog.php">Full Width</a></li>
                                             <li>
                                                 <a href="#">Blog With Sidebar <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                                    <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                                    <li><a href="blog-sidebar-left.php">Blog Sidebar Left</a></li>
+                                                    <li><a href="blog-sidebar-right.php">Blog Sidebar Right</a></li>
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="#">Blog Columns <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="blog-2-columns.html">2 Columns Blog</a></li>
-                                                    <li><a href="blog-3-columns.html">3 Columns Blog</a></li>
+                                                    <li><a href="blog-2-columns.php">2 Columns Blog</a></li>
+                                                    <li><a href="blog-3-columns.php">3 Columns Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -123,16 +123,16 @@
                                             <li>
                                                 <a href="#">Products <i class="fa fa-caret-right"></i></a>
                                                 <ul>
-                                                    <li><a href="products-2-columns.html">Products (2 Columns)</a></li>
-                                                    <li><a href="products-3-columns.html">Products (3 Columns)</a></li>
+                                                    <li><a href="products-2-columns.php">Products (2 Columns)</a></li>
+                                                    <li><a href="products-3-columns.php">Products (3 Columns)</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="product-details.html">Product Details</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="product-details.php">Product Details</a></li>
+                                            <li><a href="cart.php">Cart</a></li>
+                                            <li><a href="checkout.php">Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- End of Header-menu -->
@@ -157,10 +157,11 @@
             <div class="row">
                 <div class="col">
                     <div class="page-title" data-animate="fadeInUp" data-delay="1.2">
-                        <h2>About Us</h2>
+                        <h2>Cable TV</h2>
                         <ul class="list-unstyled m-0 d-flex">
-                            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="#">Cable TV</a></li>
                         </ul>
                     </div>
                 </div>
@@ -168,84 +169,239 @@
         </div>
     </section>
     <!-- End of Page Title -->
-    
-    <!-- Abut Us -->
-    <section class="pt-120 pb-55">
+
+    <!-- Service Details -->
+    <section class="pt-120 pb-120 light-bg">
         <div class="container">
-            <div class="row align-items-center pb-4">
-                <div class="col-lg-6 d-none d-lg-block">
-                    <div class="text-center" data-animate="fadeInUp" data-delay=".1">
-                        <img src="img/number-one.png" alt="" data-rjs="2">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="service-details" data-animate="fadeInUp" data-delay=".1">
+                        <h2>Enjoy better with our greatest <span>cable tv</span> and world’s pupular channels.</h2>
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
+                        <p><i>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment.</i></p>
+                        <ul class="rubik list-unstyled m-0 clearfix">
+                            <li>TiVo HD/DVRs</li>
+                            <li>Record, Rewind or Pause</li>
+                            <li>Popular Channels</li>
+                            <li>On Demand Choices</li>
+                            <li>Pricing Lock Gurarantee</li>
+                            <li>Quality Voice With Title</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="number-one-content" data-animate="fadeInUp" data-delay=".3">
-                        <h2 class="mb-3">We are no. 1 internet service provider company in United States.</h2>
-                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensure and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="single-about-us" data-animate="fadeInUp" data-delay=".1">
-                        <h3 class="h4">Our Mission</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias similique sunt in culpa qui officia deserunt mollitia quidem rerum facilis est et expedita distinctio.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-about-us" data-animate="fadeInUp" data-delay=".4">
-                        <h3 class="h4">Our Vission</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias similique sunt in culpa qui officia deserunt mollitia quidem rerum facilis est et expedita distinctio.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-about-us" data-animate="fadeInUp" data-delay=".7">
-                        <h3 class="h4">Our Ambition</h3>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias similique sunt in culpa qui officia deserunt mollitia quidem rerum facilis est et expedita distinctio.</p>
-                    </div>
-                </div>
-                <div class="col" data-animate="fadeInUp" data-delay=".1">
-                    <p class="pt-3 pb-5 mb-2"><strong>On the other hand, we denounce with righteous indignation and dislike men</strong> who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those <strong>who fail in their duty through weakness</strong> of will, which is the same as saying through shrinking from toil and pain.</p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-feature single-feature-img-top text-center" data-animate="fadeInUp" data-delay=".1">
-                        <div class="single-feature-img">
-                            <img src="img/icons/setup.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>Free Installations & Setup</h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-feature single-feature-img-top text-center" data-animate="fadeInUp" data-delay=".4">
-                        <div class="single-feature-img">
-                            <img src="img/icons/download.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>Up to 1 Gpbs Download Speed</h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-feature single-feature-img-top text-center" data-animate="fadeInUp" data-delay=".7">
-                        <div class="single-feature-img">
-                            <img src="img/icons/support.svg" alt="" class="svg">
-                        </div>
-                        <div class="single-feature-content">
-                            <h4>24/7 Customer Support</h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-                        </div>
+                    <div class="service-img text-center" data-animate="fadeInUp" data-delay=".4">
+                        <img src="img/cable-tv.png" alt="" data-rjs="2">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End of Abut Us -->
+    <!-- End of Service Details -->
+
+    <!-- Packages -->
+    <section class="pt-120 pb-90">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-10">
+                    <div class="section-title text-center" data-animate="fadeInUp" data-delay=".1">
+                        <h2>Choose Affordable Packages</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-package text-center" data-animate="fadeInUp" data-delay=".1">
+                        <h4>Personal Pack</h4>
+                        <span>for personal user</span>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li>Free installation</li>
+                            <li>Up to <span>15 Mpbs</span> download speed</li>
+                            <li>Unlimited data usages</li>
+                            <li><span>01 year</span> pricing lock guarantee</li>
+                            <li>Unlimited bandwidth</li>
+                        </ul>
+                        <p><sup>$</sup>12.50 <span>/Monthly</span></p>
+                        <a href="#" class="btn">Order This Plan</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-package text-center" data-animate="fadeInUp" data-delay=".4">
+                        <span class="pupular-pack">Most popular package</span>
+                        <h4>Family Pack</h4>
+                        <span>for family user</span>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li>Free installation</li>
+                            <li>Up to <span>25 Mpbs</span> download speed</li>
+                            <li>Unlimited data usages</li>
+                            <li><span>02 year</span> pricing lock guarantee</li>
+                            <li>Unlimited bandwidth</li>
+                        </ul>
+                        <p><sup>$</sup>24.50 <span>/Monthly</span></p>
+                        <a href="#" class="btn">Order This Plan</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-package text-center" data-animate="fadeInUp" data-delay=".7">
+                        <h4>Business Pack</h4>
+                        <span>for business user</span>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li>Free installation</li>
+                            <li>Up to <span>30 Mpbs</span> download speed</li>
+                            <li>Unlimited data usages</li>
+                            <li><span>03 year</span> pricing lock guarantee</li>
+                            <li>Unlimited bandwidth</li>
+                        </ul>
+                        <p><sup>$</sup>49.50 <span>/Monthly</span></p>
+                        <a href="#" class="btn">Order This Plan</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-package text-center" data-animate="fadeInUp" data-delay="1">
+                        <h4>Corporate Pack</h4>
+                        <span>for corporate user</span>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li>Free installation</li>
+                            <li>Up to <span>39 Mpbs</span> download speed</li>
+                            <li>Unlimited data usages</li>
+                            <li><span>Unlimited</span> pricing lock guarantee</li>
+                            <li>Unlimited bandwidth</li>
+                        </ul>
+                        <p><sup>$</sup>79.50 <span>/Monthly</span></p>
+                        <a href="#" class="btn">Order This Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Packages -->
+
+    <!-- Channels -->
+    <section class="pb-60">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-10">
+                    <div class="section-title text-center" data-animate="fadeInUp" data-delay=".1">
+                        <h2>Popular Channels</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="channels-wrap" data-animate="fadeInUp" data-delay=".3">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/zoom.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/rtv.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/satv.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/sling.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/sm.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/pogo.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/axn.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/fox.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/cnbc.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/disney.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/hgtv.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/cnn.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/cw.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/tvland.png" alt="">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-4">
+                        <img src="img/channels/global.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Channels -->
+
+    <!-- FAQ -->
+    <section class="light-bg pt-120 pb-70">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="faq pb-50" data-animate="fadeInUp" data-delay=".1">
+                        <div class="section-title">
+                            <h2>Frequently Asked Questions</h2>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some</p>
+                        </div>
+                        <div class="accordion" id="accordionFaq">
+                            <div class="single-faq">
+                                <div class="faq-title d-flex align-items-center">
+                                    <h3 class="h5" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">I can’t access my internet. How do i contact with support center?</h3>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordionFaq">
+                                    <div class="faq-answer">
+                                        <p><span>Ans: </span>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-faq">
+                                <div class="faq-title d-flex align-items-center">
+                                    <h3 class="h5" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">I already paid my bill but still its showing Due. Why is that?</h3>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordionFaq">
+                                    <div class="faq-answer">
+                                        <p><span>Ans: </span>Pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-faq">
+                                <div class="faq-title d-flex align-items-center">
+                                    <h3 class="h5" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How can I contact with your emergency higher management?</h3>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordionFaq">
+                                    <div class="faq-answer">
+                                        <p><span>Ans: </span>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="popup-video mb-50" data-animate="fadeInUp" data-delay=".4">
+                        <img src="img/video-thumb.jpg" data-rjs="2" alt="">
+                        <a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8" class="youtube-popup play-btn ripple">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of FAQ -->
 
     <!-- Reviews -->
     <section class="theme-bg-overlay bg-img-xs-none pt-120 pb-120" data-bg-img="img/earth.jpg" data-rjs="2">
